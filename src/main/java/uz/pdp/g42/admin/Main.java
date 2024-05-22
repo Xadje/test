@@ -19,6 +19,7 @@ public class Main {
         System.out.println("bjnbhjnkjb");
         Scanner scannerStr = new Scanner(System.in);
         Scanner scannerInt = new Scanner(System.in);
+        System.out.println("Hello World");
 
 
         FileService<Category> fileService = new FileService<>();
