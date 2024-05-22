@@ -16,11 +16,10 @@ import java.util.UUID;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        System.out.println("bjnbhjnkjb");
+        Scanner scannerDouble = new Scanner(System.in);
         Scanner scannerStr = new Scanner(System.in);
         Scanner scannerInt = new Scanner(System.in);
         System.out.println("Hello World");
-
 
         FileService<Category> fileService = new FileService<>();
         CategoryDao categoryDao = new CategoryDao(fileService);
